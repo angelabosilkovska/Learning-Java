@@ -1,0 +1,18 @@
+package Zadaca100;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Glavna {
+
+	public static void main(String[] args) {
+		Set<String> mnoz1=new HashSet<String>();
+		mnoz1.add("a");
+		mnoz1.add("b");
+		Set<String> mnoz2=new HashSet<String>();
+		mnoz2.add("a");
+		mnoz2.add("c");
+		mnoz1.retainAll(mnoz2);
+		
+	}
+}

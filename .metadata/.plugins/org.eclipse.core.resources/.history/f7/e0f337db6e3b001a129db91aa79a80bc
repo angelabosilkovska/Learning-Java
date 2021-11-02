@@ -1,0 +1,26 @@
+package Zadaca32;
+
+import java.util.Collection;
+import java.util.Collections;
+
+public class Telefon {
+   public String marka;
+   public String model;
+   private int cena;
+   
+   public Telefon(String marka, String model, int cena) {
+	   this.marka=marka;
+	   this.model=model;
+	   this.cena=cena;
+   }
+   public int getCena() {
+	   return cena;
+   }
+  public void nesto() {
+	  Collections.sort(s,new Comparator<Telefon>() {
+		  public int compare(Telefon t1,Telefon t2) {
+			  return t1.getCena() - t2.getCena();
+		  }
+	  }
+  }
+}

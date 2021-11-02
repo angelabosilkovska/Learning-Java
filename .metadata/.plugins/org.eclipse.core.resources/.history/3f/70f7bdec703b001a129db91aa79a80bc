@@ -1,0 +1,11 @@
+package Zadaca100;
+
+import java.util.HashSet;
+
+public class Glavna {
+
+	public static void main(String[] args) {
+		Set<String> mnoz1=new HashSet<String>();
+		
+	}
+}

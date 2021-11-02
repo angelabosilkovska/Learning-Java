@@ -1,0 +1,9 @@
+package Zadaca13;
+
+public class Glavna {
+
+	public static void main(String[] args) {
+		Printer p=new Printer(1900,2000);
+		p.StartPrint();
+	}
+}

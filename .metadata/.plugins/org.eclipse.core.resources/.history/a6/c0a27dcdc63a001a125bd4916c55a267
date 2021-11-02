@@ -1,0 +1,12 @@
+package MyDog;
+
+public class DogAge {
+   public static void main(String[] args) {
+	   int dog_age=4;
+	   int early_years=21;
+	   int later_years=(dog_age-2)*4;
+	   int human_years=early_years+later_years;
+	   
+	   System.out.println("My name is Lexy! Ruff ruff, I'm "+human_years+" years old in human years.");
+   }
+}
